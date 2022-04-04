@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.list:first-child {
+  margin-top: 50px;
+}
+
+.list:last-child {
+  margin-bottom: 50px;
+}
+
+.list:nth-child(odd) {
+  background-color: #c0c0c0;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.box1 {
+  width: 30%;
+  height: 200px;
+  padding-top: 50px;
+  padding-right: 5%;
+  padding-bottom: 40px;
+  background-color: orange;
+}
+
+.box2 {
+  width: 30%;
+  height: 200px;
+  padding-top: 50px;
+  padding-right: 5%;
+  padding-bottom: 40px;
+  background-color: yellow;
+}
+
+.box3 {
+  width: 30%;
+  height: 200px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: yellow;
+}
+
+.box4 {
+  width: 30%;
+  height: 200px;
+  padding-right: 5%;
+  padding-bottom: 40px;
+  background-color: yellow;
+}
+
+.box5 {
+  width: 30%;
+  height: 200px;
+  padding-right: 5%;
+  padding-bottom: 40px;
+  background-color: orange;
+}
+.box6 {
+  width: 30%;
+  height: 200px;
+  padding-bottom: 40px;
+  background-color: yellow;
+}
+
+.box7 {
+  width: 30%;
+  height: 200px;
+  padding-right: 5%;
+  padding-bottom: 50px;
+  background-color: yellow;
+}
+
+.box8 {
+  width: 30%;
+  height: 200px;
+  padding-right: 5%;
+  padding-bottom: 50px;
+  background-color: yellow;
+}
+
+.box9 {
+  width: 30%;
+  height: 200px;
+  padding-bottom: 50px;
+  background-color: orange;
+}
